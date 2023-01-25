@@ -2,6 +2,10 @@
     text-align: center;
 } */
 
+* {
+    border: solid red;
+}
+
 /* #container {
     max-width: 800px;
     margin: 0 auto;
@@ -13,3 +17,4 @@ img {
     margin: 0 auto;
     display: block;
 }
+

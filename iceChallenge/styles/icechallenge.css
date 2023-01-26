@@ -42,6 +42,7 @@ body {
 .list {
     max-width: 450px;
     text-align: left;
+    font-weight: bold;
     font-size: 1.1rem;
     line-height: 2rem;
 }
@@ -66,7 +67,7 @@ h2 {
     margin: 0 auto;
     font-size: 2rem;
     color: white;
-    line-height: 2rem;
+    line-height: 2.5rem;
 }
 
 .authorName {

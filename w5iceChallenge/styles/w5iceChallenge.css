@@ -1,0 +1,26 @@
+
+
+.title {
+    width: 100%;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+.icons {
+    width: 20%;
+    border-radius: 50%;
+    border: .5rem solid rgb(46, 45, 45);
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: 8%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.home-grid {
+    background-color: gray;
+}

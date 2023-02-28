@@ -253,3 +253,52 @@ main section img {
         margin-top: 25px;
     }
 }
+
+
+/* RIVERS CSS*/
+
+/*
+1 row/column for FAQ
+4 columns for txt (3) & side img
+*/
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.faq-title {
+    grid-column: 1/2;
+    text-align: left;
+    font-size: 30px;
+    margin-top: 25px;
+    padding: 20px;
+    padding-left: 60px;
+
+}
+
+.q-and-a {
+    grid-column: 1/4;
+    text-align: left;
+    padding-left: 60px;
+}
+
+.answers {
+    padding-left: 30px;
+    color: black;
+}
+
+.q-and-a-box {
+    background-color: #CCDAE4;
+    padding: 20px;
+    transition: transform .5s;
+    box-sizing: border-box;
+    border: 3px solid #A37B51;
+    box-shadow: 5px 5px 10px #0B2B55;
+}
+
+.side-image {
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #0B2B55;
+}
+

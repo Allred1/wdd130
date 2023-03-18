@@ -10,13 +10,13 @@
 <body>
     <div id="content">
         <header>
-            <a id="logo-link" href="index.html">
-                <img class="logo" src="images/novelResearchLogo.png" alt="Novel Research Logo">
-            </a>
             <nav>
                 <!-- <a href="index.html">Home</a> -->
-                <a href="climates.html">Climates</a>
-                <a href="architecture.html">Architecture</a>
+                <a class="climate-nav" href="climates.html">Climates</a>
+                <a id="logo-link" href="index.html">
+                    <img class="logo" src="images/novelResearchLogo.png" alt="Novel Research Logo">
+                </a>
+                <a class="architecture-nav" href="architecture.html">Architecture</a>
             </nav>
         </header>
 
@@ -26,26 +26,26 @@
             </div>
             <section id="hero-msg">
                 <h1 class="home-title">Novel Research</h1>
-                <h4>A writer's waystation to obtaining authentic information for real world influences.</h4>
+                <h4>A writer's waystation to obtaining authentic information for world influences.</h4>
             </section>
         </div>
         
         <main class="home-grid">
-            <div id="mission-box"></div>
-            <section id="mission-statement">
-                <h4>Novel Research is a place designed for writers to find the core research useful for any story. It's designed to introduce the basic overview of real world subjects, such as climates and architecture, involved in world building while providing connections to further resources. With Novel Research, a writer may find either precisely the overview they seek, or the network to deeper detail of the subject matter. In addition, Novel Research promises the continual addition of further topics.</h4>
-            </section>
-
-            <section class="climate-section">
+            <div id="mission-box">
+                <section id="mission-statement">
+                    <h4>Novel Research is a place designed for writers to find the core research useful for any story. It's designed to introduce the basic overview of real world subjects, such as climates and architecture, involved in world building while providing connections to further resources. With Novel Research, a writer may find either precisely the overview they seek, or the network to deeper detail of the subject matter. In addition, Novel Research promises the continual addition of further topics.</h4>
+                </section>
+            </div>
+            <section style="overflow:hidden" class="climate-card" href="climates.html">
                 <h3>Climates</h3>
                 <h4>Including the five major climates: Tropical, Dry, Temperate, Continental, and Polar. </h4>
-                <img class="climate-img" src="images/climateOverviewResized.jpg" alt="Landscape Meadow Valley and Mountain Image">
+                <img class="card-img" src="images/climateOverviewResized.jpg" alt="Landscape Meadow Valley and Mountain Image">
             </section>
             
-            <section class="architecture-section">
+            <section style="overflow:hidden" class="architecture-card" href="architecture.html">
+                <h4>Including five major styles: Classical, Gothic, Baroque, Neoclassical, and Victorian.</h4>
                 <h3>Architectural Styles</h3>
-                <h4>Including five maojr styles: Classical, Gothic, Baroque, Neoclassical, and Victorian.</h4>
-                <img class="architecture-img" src="images/architectureOverviewResized.jpg" alt="Architecture Castle Image">
+                <img class="card-img" src="images/architectureOverviewResized.jpg" alt="Architecture Castle Image">
             </section>
         </main>
         

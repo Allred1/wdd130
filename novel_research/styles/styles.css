@@ -2,18 +2,18 @@
 
 
 body {
-    background-color: #adadad;
+    /* background-color: #adadad; */
     font-family: Kalam, Helvetica, sans-serif;
     /* font-size: px; */
     margin: 0 auto;
-    padding: 0;
+    padding: 0px;
 }
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 header {
-    background-color: rgb(147, 102, 57, .7);
+    background-color: rgb(147, 102, 57);
     font-family: Merienda, Helvetica, sans-serif;
     display: grid;
     grid-template-columns: repeat(5 1fr);
@@ -36,6 +36,7 @@ nav {
     display: flex;
     justify-content: center;
     grid-gap: 20px;
+    position: relative;
 }
 nav a {
     align-self: center;
@@ -83,6 +84,7 @@ nav a:hover {
 }
 
 
+/* HOME PAGE */
 /* HOME GRID */
 .home-grid {
     display: grid;
@@ -111,9 +113,9 @@ nav a:hover {
     margin: 25px 150px;
     border: 7px solid #936639;
     box-shadow: 5px 5px 5px #879263;
+    background-color: #adadad;
     display: flex;
     height: 342px;
-    background-color: rgb(255, 255, 255, .5);
     transition: transform .5s;
     align-items: center;
     
@@ -141,6 +143,44 @@ nav a:hover {
     float: right;
     border: 5px solid #F8E077;
 }
+
+
+
+/* ARCHITECTURE PAGE */
+/* Sidebar Menu */
+.sidenav {
+    height: 100%;
+    width: 160px; 
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #879263;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+/* Sidebar navigation links */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.architecture-grid {
+    margin-left: 160px; /* Same as sidebar width */
+    margin-top: -250px;
+    padding: 0px 10px;
+}
+/* In case the screen height is less than 450px, then adapt accordingly. */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px}
+}
+
 
 
 

@@ -184,7 +184,6 @@ nav a:hover {
 
 
 
-
 footer {
     background-color: #879263;
     padding: 25px 50px;
@@ -209,7 +208,7 @@ footer p a:hover{
 
 /* For cases when the computer screen in less than 900px. */
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, .architecture-grid {
         display: block;
         height: auto;
     }

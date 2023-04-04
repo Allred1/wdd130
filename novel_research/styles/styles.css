@@ -257,7 +257,7 @@ footer p a:hover{
 
 /* For cases when the computer screen in less than 900px. */
 @media screen and (max-width: 900px) {
-    #hero, .home-grid, .architecture-grid {
+    #hero, .home-grid, .architecture-grid, .climate-grid {
         display: block;
         height: auto;
     }
